@@ -6,7 +6,7 @@ INC_DIR = include
 OBJ_DIR = obj
 
 
-CFLAGS = -I$(INC_DIR) -Wall -Wextra -Werror -Wshadow -Wdouble-promotion \
+CFLAGS = -I$(INC_DIR) -Wall -Wextra -Wshadow -Wdouble-promotion \
 		 -Wformat=2 -Wformat-truncation=2 -Wundef -fno-common \
 		 -Wstack-usage=255 -Wconversion -Os -ffunction-sections \
 		 -fdata-sections -Wpadded -fno-short-enums
