@@ -1,13 +1,13 @@
 # Renderer
 
-A barebones 3D renderer entirely in C.
+A zero dependency software renderer written in C.
 
-## Intro
+Run `make` to create `renderer.exe`.
 
-### Motivation
+## Implementation
 
-My own introduction to C (maybe a little ambitious) is to build a 3D renderer in C. The following project is the ongoing result.
+Runs on Windows using the Win32 API
 
-### Use
+## References
 
-Run `make` to invoke `Makefile` and create `renderer.exe`.
++ [Microsoft Learn: Winuser.h](https://learn.microsoft.com/en-us/windows/win32/api/winuser/), and [theForger's Win32 API Programming Tutorial](http://www.winprog.org/tutorial/simple_window.html)  for interacting with Windows.
